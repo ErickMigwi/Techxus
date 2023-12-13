@@ -1,0 +1,13 @@
+#mainProdSec{
+    width: 50vw;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+    margin-top: 2vh;
+    background-color: hsl(0, 0%, 18%, 0.4);
+    border-radius: 10px;
+    animation: slideIn 2s;
+    padding: 2%;
+}

@@ -1,0 +1,192 @@
+#mainHomedark{
+    background-color: #2F2F2F;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#mainHomelight{
+    background-color:white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#mainHome p{
+    padding: 10px;
+   
+}
+#producImgAd{
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    height: 600px;
+    animation: slideIn 2s;
+    aspect-ratio: 1/1;
+}
+#adAsus{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#asusImgAd{
+    width: 600px;
+    object-fit: fill;
+    height: 450px;
+    
+    animation: slideIn 2s;
+    aspect-ratio: 1/1;
+}
+#gamePc{
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+  }
+#productAdlight{
+    font-family: 'Nova Square', sans-serif;
+    color: #FE6F27;
+    font-size: 5vh ;
+}
+#productAddark{
+    font-family: 'Nova Square', sans-serif;
+    color: #FE6F27;
+    font-size: 5vh ;
+}
+#disRazerdark{
+    display:flex;
+    background-color: #2F2F2F;
+    width:98%;
+    height: 50vh;
+    padding: 1vw;
+    justify-content: center;
+    gap: 9vw;
+    align-items: center;
+  
+}
+#disRazerlight{
+    display:flex;
+    background-color: white;
+    width:98%;
+    height: 50vh;
+    padding: 1vw;
+    justify-content: center;
+    gap: 9vw;
+    align-items: center;
+  
+}
+#disRazerdark img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center;
+}
+#disRazerdark img:hover{
+    cursor: pointer;
+}
+#disPerImgdark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+#disPerImglight p{
+    color: #FE6F27;
+    font-family:  'Nova Square', sans-serif;
+    font-size: 2vh;
+}
+#disPerImgdark p{
+    color: #FE6F27;
+    font-family:  'Nova Square', sans-serif;
+    font-size: 2vh;
+}
+#disRazerlight img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: center;
+}
+#disRazerlight img:hover{
+    cursor: pointer;
+}
+#disPerImglight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+#disPerImglight p{
+    color: #FE6F27;
+    font-family:  'Nova Square', sans-serif;
+    font-size: 2vh;
+}
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #disRazerdark{
+        display:flex;
+        background-color: #2F2F2F;
+        width:98%;
+        height: 50vh;
+        padding: 1vw;
+        justify-content: center;
+        gap: 9vw;
+        align-items: center;
+      
+    }
+    #disRazerlight{
+        padding-top: 1%;
+        flex-direction: column;
+        height: auto;
+    }
+    #disRazerdark{
+        padding-top: 1%;
+        flex-direction: column;
+        height: auto;
+    }
+    #disRazerlight img{
+        margin-top: 2%;
+        width: 100%;
+    }
+    #disRazerdark img{
+        margin-top: 2%;
+        width: 100%;
+    }
+    #productAdlight{
+        font-family: 'Nova Square', sans-serif;
+        color: #FE6F27;
+        font-size: 2.5vh ;
+        padding: 1%;
+    }
+    #productAddark{
+        font-family: 'Nova Square', sans-serif;
+        color: #FE6F27;
+        font-size: 2.5vh ;
+        padding: 1%;
+    }
+    #adAsus{
+        flex-direction: column;
+    }
+    #gamePc{
+        width: 100%;
+    }
+    #asusImgAd{
+        width: 100%;
+    }
+  }
+  

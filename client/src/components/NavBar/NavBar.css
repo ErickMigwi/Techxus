@@ -1,0 +1,159 @@
+#mainNavdark{
+    background-color:#2F2F2F ;
+    color:#FE6F27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    height: 8vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+   z-index: 5;
+    border-bottom: 2px solid #FE6F27;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#mainNavlight{
+    background-color:white ;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    height: 8vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-bottom: 2px solid #FE6F27;
+}
+#logo{
+    font-family: 'Nova Square', sans-serif;
+    font-size: 5vh;
+    color:#FE6F27;
+}
+#mainNav p:hover{
+    color: #e5804d;
+    cursor: pointer;
+}
+#navOptsdark {
+background-color: #0d0c0c;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    position: fixed;
+    top: 10vh;
+    right: 0;
+    margin-right: 40px;
+    color: #FE6F27;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    gap: 5px;
+ animation: slideIn 2s;
+ z-index: 5;
+}
+#navOptslight{
+    background-color:#0063FA ;
+display: flex;
+flex-direction: column;
+width: auto;
+position:fixed ;
+top: 10vh;
+right: 0;
+margin-right: 40px;
+color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+justify-content: center;
+align-items: center;
+height: auto;
+padding: 10px;
+font-size: 1.2rem;
+border-radius: 10px;
+gap: 5px;
+animation: slideIn 2s;
+z-index: 5;
+}
+#navOptsdark p:hover{
+ cursor: pointer;
+ color: hsl(20, 99%, 57%, 0.5);
+}
+#navOptslight p:hover{
+ cursor: pointer;
+ color:hsl(0, 0%, 100%,0.5);
+}
+#navOptsdark p{
+ border-bottom: 2px solid hsl(20, 99%, 57%, 0.4);
+ width:100%;
+ box-sizing: border-box;
+}
+.search:hover{
+    color:#FE6F27;
+    cursor: pointer;
+}
+.Cart:hover{
+    color:#FE6F27;
+    cursor: pointer; 
+}
+.burger:hover{
+    color:#FE6F27;
+    cursor: pointer;
+}
+.halfStroke{
+    cursor: pointer;
+}
+#navOptslight p{
+ border-bottom: 2px solid hsl(0, 0%, 100%,0.5);
+ width:100%;
+ box-sizing: border-box;
+}
+#topOpts{
+    width: fit-content;
+    display: flex;
+    gap: 30px;
+}
+@keyframes slideIn{
+    from {
+        transform: translateX(-100%);
+
+    }
+    to {
+        transform: translateX(0); 
+
+    }
+}
+/* For WebKit-based browsers (Chrome, Safari) */
+/* Change the scrollbar track color */
+::-webkit-scrollbar {
+    width: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background-color: #2F2F2F; /* Change to your desired color */
+    }
+    
+    /* Change the scrollbar thumb color */
+    ::-webkit-scrollbar-thumb {
+    background-color: #FE6F27; /* Change to your desired color */
+    }
+    
+    /* Optionally, you can style the corner when both vertical and horizontal scrollbars are present */
+    ::-webkit-scrollbar-corner {
+    background-color: #2F2F2F; 
+    }
+    
+    /* For Firefox */
+    /* Change the scrollbar track color */
+    html {
+    scrollbar-color:  #FE6F27 #2F2F2F; /* Track color Thumb color */
+    }
+    
+    /* Optionally, you can also change the scrollbar width */
+    html {
+    scrollbar-width: thin; /* or auto or none */
+    }
+    

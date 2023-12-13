@@ -1,0 +1,79 @@
+#mainAddProduct{
+    width: auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 2vh;
+    background-color: hsl(0, 0%, 18%, 0.5);
+    justify-content: center;
+    border-radius: 10px;
+    animation: slideIn 2s;
+    padding: 2%;
+}
+#mainAddProduct input{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 2px solid hsl(20, 99%, 57%, 0.8);
+    color: #FE6F27;
+    font-size: 15px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background: none;
+}
+#mainAddProduct textarea{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 2px solid hsl(20, 99%, 57%, 0.8);
+    color: #FE6F27;
+    font-size: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background: none;
+}
+#mainAddProduct p{
+    color: #FE6F27;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background: none;
+    width: 15vw;
+    font-family: 'Roboto', sans-serif;
+}
+#mainAddProduct button{
+    background-color: #FE6F27;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    padding: 5px;
+    height: auto;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Nova Square', sans-serif;
+}
+#align{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+#addProd{
+    font-family: 'Nova Square', sans-serif;
+    color: #FE6F27;
+    font-size: 50px;
+}
+.select{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 2px solid hsl(20, 99%, 57%, 0.8);
+    border-left: none;
+  
+    color: #FE6F27;
+    font-size: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background: none;
+}
